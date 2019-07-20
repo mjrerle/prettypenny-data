@@ -2,12 +2,17 @@ import os
 import json
 import urllib.request
 
+
 url = 'http://ec2-3-15-165-112.us-east-2.compute.amazonaws.com:8080/project2-backend/api/'
 
 taxonomy = "taxonomy"
 user = "user"
 product = "product"
-for file in os.listdir(taxonomy):
+
+dirFiles = os.listdir(taxonomy)
+dirFiles = sorted(dirFiles,key=lambda x: int(os.path.splitext(x)[0]))
+
+for file in dirFiles:
     filename = os.fsdecode(file)
     if filename.endswith(".json"):
 
@@ -26,7 +31,9 @@ for file in os.listdir(taxonomy):
         print("unable to can")
         continue
 
-for file in os.listdir(user):
+dirFiles = os.listdir(user)
+dirFiles = sorted(dirFiles,key=lambda x: int(os.path.splitext(x)[0]))
+for file in dirFiles:
     filename = os.fsdecode(file)
     if filename.endswith(".json"):
 
@@ -45,7 +52,9 @@ for file in os.listdir(user):
         print("unable to can")
         continue
 
-for file in os.listdir(product):
+dirFiles = os.listdir(product)
+dirFiles = sorted(dirFiles,key=lambda x: int(os.path.splitext(x)[0]))
+for file in dirFiles:
     filename = os.fsdecode(file)
     if filename.endswith(".json"):
 
