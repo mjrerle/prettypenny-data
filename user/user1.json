@@ -1,0 +1,10 @@
+{
+	"firstName": "admin",
+	"lastName": "adminpants",
+	"email":"admin@example.com",
+	"password":"password",
+	"role": "ADMIN",
+	"address": "123 main street",
+	"creditCardNumber": 123456789,
+	"cvv": 123
+}

@@ -1,0 +1,13 @@
+{
+	"productName": "Samsung Smart Fridge",
+	"description": "It's more than a fridge, it's the Family Hub Make your kitchen the center of your home. With Family Hub, you can shop for food, organize your family's schedules, entertain, and even see who's at the door—all right from your fridge.",
+	"price": 2399.99,
+	"salePrice": 500.00,
+	"onSale": 1,
+	"generatedInterest": 550,
+	"imageUrl": "https://brain-images-ssl.cdn.dixons.com/9/4/10164049/l_10164049_008.jpg",
+	"status": "Surpassed Threshold",
+	"interestThreshold": 500,
+	"taxonomy": 52,
+	"user": 51
+}

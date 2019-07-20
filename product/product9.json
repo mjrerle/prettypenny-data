@@ -1,0 +1,13 @@
+{
+	"productName": "HP EliteBook x360 1040",
+	"description": "Windows 10 Pro 64. 8th Generation Intel® Core™ i7 processor. 16 GB memory. 256 GB SSD storage. 14in diagonal Full HD touch display",
+	"price": 1929.99,
+	"salePrice": 1300.00,
+	"onSale": 1,
+	"generatedInterest": 2000,
+	"imageUrl": "https://www.notebookcheck.net/fileadmin/Notebooks/HP/Elitebook_x360_1040_G5/c06191504.png",
+	"status": "Pretty",
+	"interestThreshold": 1000,
+	"taxonomy": 55,
+	"user": 51
+}
