@@ -3,7 +3,7 @@ import json
 import urllib.request
 
 
-url = 'http://ec2-3-15-165-112.us-east-2.compute.amazonaws.com:8080/project2-backend/api/'
+url = 'http://localhost:8080/project2-backend/api/'
 
 taxonomy = "taxonomy"
 user = "user"

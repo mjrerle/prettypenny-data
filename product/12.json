@@ -7,7 +7,7 @@
 	"generatedInterest": 17,
 	"imageUrl": "https://imgur.com/sGqgXlZ.jpg",
 	"status": "Within Threshold",
-	"interestThreshold": 200,
+	"interestThreshold": 20,
 	"taxonomy": 58,
 	"user": 53
 }
